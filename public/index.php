@@ -31,7 +31,7 @@ if (isset($_GET['result'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tale Weaver</title>
+    <title>Juni Jabber</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         /* Gothic border pattern */

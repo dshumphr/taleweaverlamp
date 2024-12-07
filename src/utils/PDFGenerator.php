@@ -23,7 +23,7 @@ class PDFGenerator {
         try {
             // Set document metadata
             $this->mpdf->SetTitle($story['title']);
-            $this->mpdf->SetAuthor('Tale Weaver');
+            $this->mpdf->SetAuthor('Juni Jabber');
             
             // Write CSS separately
             $this->mpdf->WriteHTML($this->getStyles(), \Mpdf\HTMLParserMode::HEADER_CSS);
