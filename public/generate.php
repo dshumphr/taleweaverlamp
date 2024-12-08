@@ -26,7 +26,7 @@ try {
     $processes = [];
     $illustrations = [];
     $autoloadPath = realpath(__DIR__ . '/../vendor/autoload.php');
-    $clientPath = realpath(__DIR__ . '/../src/clients/FALClient.php');
+    $clientPath = realpath(__DIR__ . '/../src/Clients/FALClient.php');
     foreach ($storyResult['pages'] as $index => $page) {
         $descriptorspec = [
             0 => ["pipe", "r"],  // stdin
