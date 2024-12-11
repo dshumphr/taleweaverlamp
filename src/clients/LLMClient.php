@@ -26,8 +26,25 @@ class LLMClient {
     - For each page, create a brief image prompt that can be used with a text-to-image model like Stable Diffusion.
     - The prompt should describe the fish and its environment in simple, clear terms.
     - Include colors, basic shapes, and any key elements mentioned in the text.
+
+    Image Style Guidelines
+    - Define a consistent illustration style for the entire book:
+    - Use one art style (e.g., 'watercolor', 'digital illustration', 'cut-paper collage')
+    - Specify consistent character proportions and design elements
+    - Maintain a unified color palette throughout
+    - Set consistent lighting and atmosphere
+
+    Image Prompt Structure
+    Each image prompt should include these components in order:
+    1. Main subject: The primary focus of the illustration
+    2. Base style: The core artistic approach (e.g., 'digital illustration in the style of Eric Carle')
+    3. Color palette: 3-4 main colors that align with the book's overall scheme
+    4. Composition: How elements are arranged (e.g., 'centered', 'filling the frame')
+    5. Background: Consistent approach to backgrounds across all illustrations
+    6. Lighting: Unified lighting style throughout the book
+    Example image prompt structure: Smiling red fish centered. Digital illustration in the style of Eric Carle. Coral red, turquoise blue, sandy beige. Simple underwater scene with scattered seaweed. Soft, diffused lighting.
     
-    6. Output Format:
+    Output Format:
     Present your book in the following format:
     
     <book>
